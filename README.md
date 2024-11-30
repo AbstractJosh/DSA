@@ -40,3 +40,17 @@ as data from my Valorant matches. Key attributes tracked for each game:
 4. **Insights and Recommendations**: 
    - Summarize findings and propose ways to improve gameplay performance and maintain focus.
    - Highlight strategies or agents that optimize performance under specific mental states.
+
+## **Possible Limitations and Future Plans**
+### **Limitations**
+1. **Self-Reported Mental State Data**: Subjective assessments of mood and focus may not always be accurate and could introduce bias.
+2. **Sample Size**: The dataset depends on the number of matches recorded, which may not be large enough for statistically significant results.
+3. **Context Dependency**: Other factors (e.g., teammate performance, internet connection quality) that affect gameplay may not be captured.
+4. **Manual Data Entry**: Extracting data from recorded gameplay may be time-intensive and prone to human error.
+
+### **Future Plans**
+1. Automate the extraction of gameplay data using APIs or tools like Blitz or Overwolf.
+2. Explore machine learning models to predict performance based on historical data and mental state.
+3. Expand the dataset to include different game modes and larger time periods for broader analysis.
+4. Develop a dashboard for real-time performance tracking and strategy recommendations.
+5. Collaborate with other players to gather diverse datasets and validate findings.

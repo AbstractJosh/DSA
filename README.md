@@ -27,10 +27,11 @@ as data from my Valorant matches. Key attributes tracked for each game:
 ## **Plan**
 1. **Data Collection**: 
    - Utilize recorded gameplay to extract match details and performance metrics.
+   - Utilize **tracker.gg** to more easily reach my perfomance metrics.
    - Supplement with self-reported mental state data for a holistic dataset.
 2. **Data Processing**: 
    - Process gameplay recordings to ensure accurate data capture.
-   - Structure the dataset into a usable format (e.g., CSV or database).
+   - Structure the dataset into a usable format
 3. **Analysis and Visualization**:
    - Create performance graphs (e.g., kills, deaths, and assists over time).
    - Analyze agent/map combinations with the highest individual performance.

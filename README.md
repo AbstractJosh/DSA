@@ -46,7 +46,8 @@ as data from my Valorant matches. Key attributes tracked for each game:
 1. **Self-Reported Mental State Data**: Subjective assessments of mood and focus may not always be accurate and could introduce bias.
 2. **Sample Size**: The dataset depends on the number of matches recorded, which may not be large enough for statistically significant results.
 3. **Context Dependency**: Other factors (e.g., teammate performance, internet connection quality) that affect gameplay may not be captured.
-4. **Manual Data Entry**: Extracting data from recorded gameplay may be time-intensive and prone to human error.
+4. **Manual Data Entry**: Extracting data from recorded gameplay may be time-intensive and prone to human error. Also tracker.gg has protection systems against web-scraping scripts so that is not an option.
+
 
 ### **Future Plans**
 1. Automate the extraction of gameplay data using APIs or tools like Blitz or Overwolf.

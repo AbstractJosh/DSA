@@ -73,9 +73,15 @@ The dataset spans two months, ensuring focus on a manageable and relevant period
 - **acsOverTime.py**
   - Analyzes Average Combat Score (ACS) over time.
   - Demonstrates that ACS remained stable during the experiment, ensuring reliable results.
+
+    ![image](https://github.com/user-attachments/assets/757b489c-1351-4bb2-99df-7aa85df4dbb6)
+    
 - **kdaOverTime.py**
   - Tracks the Kill/Death/Assist ratio over time.
   - Confirms that there were no significant improvements or declines in skill level.
+ 
+    ![image](https://github.com/user-attachments/assets/f6aa7b62-5d1e-4ad3-afaf-87339988d8a4)
+    
 
 ### **Findings and Visualizations**
 - **ACS_Agression_Scatter.py**
@@ -85,12 +91,22 @@ The dataset spans two months, ensuring focus on a manageable and relevant period
 - **mental_firstEngagementViolin.py**
   - Visualizes the success rate of first engagements against mental state scores using violin plots.
   - Findings: Optimal mental states lead to higher first engagement success rates.
+ 
+    ![image](https://github.com/user-attachments/assets/99b738e7-9775-4735-8ea7-1d6074513209)
+
+    
 - **mental_scoreHistogram.py**
   - Displays the distribution of mental state scores throughout the experiment.
   - Findings: Most games were played in a medium-to-high mental state range, avoiding outliers.
+
+    ![image](https://github.com/user-attachments/assets/b07f56fb-addc-4c3c-bfaf-fdcda850bda5)
+ 
 - **MentalState_on_Agression.py**
   - Examines how mental state influences aggression levels (first kills + first deaths).
   - Findings: High mental states correlate with increased aggression, suggesting confidence and decisiveness.
+  
+  ![image](https://github.com/user-attachments/assets/d584eee2-a47f-4cba-9c1b-c2824cb52f27)
+
 
 ## **Insights and Conclusions**
 1. **Mental State Consistency**: Mental state is a reliable predictor of gameplay performance, particularly for metrics like aggression and first engagement success.

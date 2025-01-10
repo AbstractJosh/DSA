@@ -113,16 +113,6 @@ The dataset spans three months, ensuring focus on a manageable and relevant peri
 2. **Optimal Performance Zone**: Players perform best when maintaining a balanced mental state, avoiding extremes of fatigue or overexcitement.
 3. **Aggression vs. Performance**: Aggressive playstyles yield better ACS but require a confident and focused mental state.
 
-## **Limitations and Future Work**
-### Limitations
-1. **Subjectivity**: Self-reported mental state data introduces potential biases.
-2. **External Factors**: Gameplay variables like teammate performance and network conditions were not controlled.
-
-### Future Plans
-1. Automate data collection using APIs to minimize manual errors.
-2. Expand the dataset to include multiple players for more generalized insights.
-3. Develop predictive models to provide real-time recommendations for performance improvement.
-4. Create a dashboard for tracking gameplay and mental state metrics in real-time.
 
 ---
 

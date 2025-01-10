@@ -18,9 +18,9 @@ as data from my Valorant matches. Key attributes tracked for each game:
   - Deaths
   - Assists
   - ACS (Average Combat Score)
-  - Aggressiveness (First Bloods)
+  - Aggressiveness (First Kills & Deaths in the round)
 - **Mental State / Decision Making**: Self-reported indicators such as fatigue, focus, or mood.
-  - Aggressiveness (First Bloods)
+  - Aggressiveness (First Kills & Deaths in the round)
   - Willingness to communicate
   - Anger
 

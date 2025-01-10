@@ -55,3 +55,57 @@ as data from my Valorant matches. Key attributes tracked for each game:
 3. Expand the dataset to include different game modes and larger time periods for broader analysis.
 4. Develop a dashboard for real-time performance tracking and strategy recommendations.
 5. Collaborate with other players to gather diverse datasets and validate findings.
+
+# Findings Over Two Months of Playtime
+## **Dataset**
+The dataset includes:
+- Self-reported mental state metrics (e.g., fatigue, focus, mood) per game.
+- Performance statistics retrieved from **tracker.gg** and gameplay footage:
+  - **Average Combat Score (ACS)**
+  - **Kills/Deaths/Assists (KDA)**
+  - **First Kill/First Death Aggressiveness**
+  - Other contextual metrics.
+
+The dataset spans two months, ensuring focus on a manageable and relevant period for analysis.
+
+## **Scripts Overview**
+### **Skill Level Consistency**
+- **acsOverTime.py**
+  - Analyzes Average Combat Score (ACS) over time.
+  - Demonstrates that ACS remained stable during the experiment, ensuring reliable results.
+- **kdaOverTime.py**
+  - Tracks the Kill/Death/Assist ratio over time.
+  - Confirms that there were no significant improvements or declines in skill level.
+
+### **Findings and Visualizations**
+- **ACS_Agression_Scatter.py**
+  - Investigates the relationship between player aggression (first kills + first deaths) and ACS.
+  - Findings: Aggression positively correlates with ACS, emphasizing the impact of confident decision-making on performance.
+- **mental_firstEngagementViolin.py**
+  - Visualizes the success rate of first engagements against mental state scores using violin plots.
+  - Findings: Optimal mental states lead to higher first engagement success rates.
+- **mental_scoreHistogram.py**
+  - Displays the distribution of mental state scores throughout the experiment.
+  - Findings: Most games were played in a medium-to-high mental state range, avoiding outliers.
+- **MentalState_on_Agression.py**
+  - Examines how mental state influences aggression levels (first kills + first deaths).
+  - Findings: High mental states correlate with increased aggression, suggesting confidence and decisiveness.
+
+## **Insights and Conclusions**
+1. **Mental State Consistency**: Mental state is a reliable predictor of gameplay performance, particularly for metrics like aggression and first engagement success.
+2. **Optimal Performance Zone**: Players perform best when maintaining a balanced mental state, avoiding extremes of fatigue or overexcitement.
+3. **Aggression vs. Performance**: Aggressive playstyles yield better ACS but require a confident and focused mental state.
+
+## **Limitations and Future Work**
+### Limitations
+1. **Subjectivity**: Self-reported mental state data introduces potential biases.
+2. **External Factors**: Gameplay variables like teammate performance and network conditions were not controlled.
+
+### Future Plans
+1. Automate data collection using APIs to minimize manual errors.
+2. Expand the dataset to include multiple players for more generalized insights.
+3. Develop predictive models to provide real-time recommendations for performance improvement.
+4. Create a dashboard for tracking gameplay and mental state metrics in real-time.
+
+---
+

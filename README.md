@@ -66,7 +66,7 @@ The dataset includes:
   - **First Kill/First Death Aggressiveness**
   - Other contextual metrics.
 
-The dataset spans two months, ensuring focus on a manageable and relevant period for analysis.
+The dataset spans three months, ensuring focus on a manageable and relevant period for analysis.
 
 ## **Scripts Overview**
 ### **Skill Level Consistency**

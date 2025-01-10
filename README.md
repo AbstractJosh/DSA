@@ -81,6 +81,7 @@ The dataset spans two months, ensuring focus on a manageable and relevant period
 - **ACS_Agression_Scatter.py**
   - Investigates the relationship between player aggression (first kills + first deaths) and ACS.
   - Findings: Aggression positively correlates with ACS, emphasizing the impact of confident decision-making on performance.
+    ![image](https://github.com/user-attachments/assets/71a7472a-ae37-4aec-8c89-3451c18a0ad9)
 - **mental_firstEngagementViolin.py**
   - Visualizes the success rate of first engagements against mental state scores using violin plots.
   - Findings: Optimal mental states lead to higher first engagement success rates.

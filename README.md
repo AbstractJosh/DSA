@@ -56,7 +56,7 @@ as data from my Valorant matches. Key attributes tracked for each game:
 4. Develop a dashboard for real-time performance tracking and strategy recommendations.
 5. Collaborate with other players to gather diverse datasets and validate findings.
 
-# Findings Over Two Months of Playtime
+# Findings Over Three Months of Playtime
 ## **Dataset**
 The dataset includes:
 - Self-reported mental state metrics (e.g., fatigue, focus, mood) per game.
